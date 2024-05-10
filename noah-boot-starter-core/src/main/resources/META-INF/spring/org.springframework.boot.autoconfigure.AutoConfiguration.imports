@@ -1,0 +1,3 @@
+com.gengby.boot.core.autoconfigure.project.ProjectAutoConfiguration
+com.gengby.boot.core.autoconfigure.threadpool.ThreadPoolAutoConfiguration
+com.gengby.boot.core.autoconfigure.threadpool.AsyncAutoConfiguration

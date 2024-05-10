@@ -32,6 +32,19 @@
 
     <properties>
         <revision>1.0-SNAPSHOT</revision>
+        <hutool.version>5.8.27</hutool.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>

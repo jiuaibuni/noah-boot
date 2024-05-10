@@ -45,6 +45,7 @@
 
     <modules>
         <module>noah-boot-dependencies</module>
+        <module>noah-boot-starter-core</module>
         <module>noah-boot-starter-web</module>
     </modules>
 
