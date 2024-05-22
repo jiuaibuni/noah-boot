@@ -29,6 +29,12 @@
             <artifactId>hutool-core</artifactId>
         </dependency>
 
+        <!-- Hutool JSON 模块（基于 json.org 官方库改造） -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-json</artifactId>
+        </dependency>
+
         <!-- Hutool 扩展模块（提供对第三方库的工具类支持） -->
         <dependency>
             <groupId>cn.hutool</groupId>

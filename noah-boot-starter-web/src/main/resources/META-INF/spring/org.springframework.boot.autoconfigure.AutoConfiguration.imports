@@ -1,2 +1,2 @@
-com.gengby.boot.web.autoconfigure.cors.CorsAutoConfiguration
+cors.autoconfigure.com.gengby.starter.web.CorsAutoConfiguration
 com.gengby.boot.web.autoconfigure.trace.TraceAutoConfiguration

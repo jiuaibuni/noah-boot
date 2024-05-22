@@ -7,10 +7,46 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-core/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-api-doc/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-data/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-extension/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-file/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-json/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-log/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-messaging/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-storage/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-messaging/continew-starter-messaging-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-data/continew-starter-data-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-extension/continew-starter-extension-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/continew-starter-security-password/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-springcache/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-data/continew-starter-data-core/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-storage/continew-starter-storage-local/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/continew-starter-security-crypto/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/continew-starter-security-mask/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-file/continew-starter-file-excel/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-redisson/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-json/continew-starter-json-jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-log/continew-starter-log-core/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-jetcache/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-log/continew-starter-log-httptrace-pro/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-dependencies/noah-boot-starter-captcha/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-dependencies/noah-boot-starter-captcha/continew-starter-captcha-behavior/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-dependencies/noah-boot-starter-captcha/continew-starter-captcha-graphic/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-captcha/continew-starter-captcha-behavior/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-captcha/continew-starter-captcha-graphic/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-captcha/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-password/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-web/ear/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-web/ejbs/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-web/primary-source/pom.xml" />

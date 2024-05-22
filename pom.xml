@@ -46,7 +46,18 @@
     <modules>
         <module>noah-boot-dependencies</module>
         <module>noah-boot-starter-core</module>
+        <module>noah-boot-starter-json</module>
+        <module>noah-boot-starter-api-doc</module>
         <module>noah-boot-starter-web</module>
+        <module>noah-boot-starter-log</module>
+        <module>noah-boot-starter-storage</module>
+        <module>noah-boot-starter-file</module>
+        <module>noah-boot-starter-captcha</module>
+        <module>noah-boot-starter-cache</module>
+        <module>noah-boot-starter-data</module>
+        <module>noah-boot-starter-auth</module>
+        <module>noah-boot-starter-messaging</module>
+        <module>noah-boot-starter-extension</module>
     </modules>
 
 </project>

@@ -3,8 +3,77 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/noah-boot-dependencies/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-dependencies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-api-doc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-api-doc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/continew-starter-auth-justauth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/noah-boot-starter-auth-justauth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/noah-boot-starter-auth-justauth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/noah-boot-starter-auth-satoken/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/noah-boot-starter-auth-satoken/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-jetcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-jetcache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-redisson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-redisson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-springcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/continew-starter-cache-springcache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/noah-boot-starter-cache-jetcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/noah-boot-starter-cache-jetcache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/noah-boot-starter-cache-redisson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/noah-boot-starter-cache-redisson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/noah-boot-starter-cache-springcache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/noah-boot-starter-cache-springcache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-cache/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-captcha/noah-boot-starter-captcha-behavior/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-captcha/noah-boot-starter-captcha-behavior/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-captcha/noah-boot-starter-captcha-graphic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-captcha/noah-boot-starter-captcha-graphic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-captcha/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-captcha/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-data/noah-boot-starter-data-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-data/noah-boot-starter-data-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-data/noah-boot-starter-data-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-data/noah-boot-starter-data-mybatis-plus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-extension/noah-boot-starter-extension-crud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-extension/noah-boot-starter-extension-crud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-extension/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-extension/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-file/noah-boot-starter-file-excel/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-file/noah-boot-starter-file-excel/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-file/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-file/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-json/noah-boot-starter-json-jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-json/noah-boot-starter-json-jackson/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-log/noah-boot-starter-log-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-log/noah-boot-starter-log-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-log/noah-boot-starter-log-httptrace-pro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-log/noah-boot-starter-log-httptrace-pro/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/noah-boot-starter-messaging-mail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/noah-boot-starter-messaging-mail/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-password/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-password/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-storage/noah-boot-starter-storage-local/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-storage/noah-boot-starter-storage-local/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-storage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-storage/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

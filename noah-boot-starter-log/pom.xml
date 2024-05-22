@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.gengby</groupId>
+        <artifactId>noah-boot</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>noah-boot-starter-log</artifactId>
+    <packaging>pom</packaging>
+    <description>Noah Boot 日志模块</description>
+
+    <modules>
+        <module>noah-boot-starter-log-core</module>
+        <module>noah-boot-starter-log-httptrace-pro</module>
+    </modules>
+
+    <dependencies>
+        <!-- Web 模块 -->
+        <dependency>
+            <groupId>com.gengby</groupId>
+            <artifactId>noah-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+</project>

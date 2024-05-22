@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.gengby</groupId>
+        <artifactId>noah-boot-starter-log</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>noah-boot-starter-log-httptrace-pro</artifactId>
+    <description>Noah Boot 日志模块 - HttpTracePro（Spring Boot Actuator HttpTrace 重置增强版）</description>
+
+    <dependencies>
+        <!-- Swagger 注解 -->
+        <dependency>
+            <groupId>io.swagger.core.v3</groupId>
+            <artifactId>swagger-annotations-jakarta</artifactId>
+        </dependency>
+
+        <!-- TTL（线程间传递 ThreadLocal，异步执行时上下文传递的解决方案） -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+        </dependency>
+
+        <!-- 日志模块 - 核心模块 -->
+        <dependency>
+            <groupId>com.gengby</groupId>
+            <artifactId>noah-boot-starter-log-core</artifactId>
+        </dependency>
+    </dependencies>
+</project>
