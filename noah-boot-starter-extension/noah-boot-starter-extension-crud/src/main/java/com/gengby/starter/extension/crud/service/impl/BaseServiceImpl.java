@@ -12,13 +12,13 @@ import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.extra.spring.SpringUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.gengby.starter.core.util.ClassUtil;
+import com.gengby.starter.core.util.validate.ValidationUtil;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.data.domain.Sort;
 import org.springframework.transaction.annotation.Transactional;
 import com.gengby.starter.core.constant.StringConstants;
-import com.gengby.starter.core.util.ClassUtils;
 import com.gengby.starter.core.util.ReflectUtils;
-import com.gengby.starter.core.util.validate.ValidationUtils;
 import com.gengby.starter.data.mybatis.plus.base.BaseMapper;
 import com.gengby.starter.data.mybatis.plus.query.QueryWrapperHelper;
 import com.gengby.starter.data.mybatis.plus.service.impl.ServiceImpl;
@@ -51,7 +51,7 @@ import java.util.Optional;
  */
 public abstract class BaseServiceImpl<M extends BaseMapper<T>, T extends BaseDO, L, D, Q, C extends BaseReq> extends ServiceImpl<M, T> implements BaseService<L, D, Q, C> {
 
-    private final Class<?>[] typeArgumentCache = ClassUtils.getTypeArguments(this.getClass());
+    private final Class<?>[] typeArgumentCache = ClassUtil.getTypeArguments(this.getClass());
     protected final Class<L> listClass = this.currentListClass();
     protected final Class<D> detailClass = this.currentDetailClass();
     protected final Class<Q> queryClass = this.currentQueryClass();
@@ -186,7 +186,7 @@ public abstract class BaseServiceImpl<M extends BaseMapper<T>, T extends BaseDO,
                 Optional<Field> optional = entityFields.stream()
                     .filter(field -> checkProperty.equals(field.getName()))
                     .findFirst();
-                ValidationUtils.throwIf(optional.isEmpty(), "无效的排序字段 [{}]", property);
+                ValidationUtil.throwIf(optional.isEmpty(), "无效的排序字段 [{}]", property);
                 queryWrapper.orderBy(true, order.isAscending(), CharSequenceUtil.toUnderlineCase(property));
             }
         }

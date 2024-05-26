@@ -86,6 +86,11 @@
                 <artifactId>hutool-json</artifactId>
                 <version>${hutool.version}</version>
             </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-http</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
             <!-- Sa-Token（轻量级 Java 权限认证框架，让鉴权变得简单、优雅） -->
             <dependency>
                 <groupId>cn.dev33</groupId>

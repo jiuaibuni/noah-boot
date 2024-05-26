@@ -6,7 +6,7 @@ import cn.hutool.core.lang.tree.TreeNodeConfig;
 import cn.hutool.core.lang.tree.TreeUtil;
 import cn.hutool.core.lang.tree.parser.NodeParser;
 import cn.hutool.core.util.ReflectUtil;
-import com.gengby.starter.core.util.validate.CheckUtils;
+import com.gengby.starter.core.util.validate.CheckUtil;
 import com.gengby.starter.extension.crud.annotation.TreeField;
 
 import java.util.ArrayList;
@@ -68,7 +68,7 @@ public class TreeUtils {
      * @return 树结构配置
      */
     public static TreeNodeConfig genTreeNodeConfig(TreeField treeField) {
-        CheckUtils.throwIfNull(treeField, "请添加并配置 @TreeField 树结构信息");
+        CheckUtil.throwIfNull(treeField, "请添加并配置 @TreeField 树结构信息");
         return new TreeNodeConfig().setIdKey(treeField.value())
             .setParentIdKey(treeField.parentIdKey())
             .setNameKey(treeField.nameKey())

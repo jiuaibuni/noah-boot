@@ -2,6 +2,7 @@ package com.gengby.starter.core.autoconfigure.threadpool;
 
 import cn.hutool.core.util.ArrayUtil;
 import com.gengby.starter.core.constant.PropertiesConstants;
+import com.gengby.starter.core.exception.BaseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;

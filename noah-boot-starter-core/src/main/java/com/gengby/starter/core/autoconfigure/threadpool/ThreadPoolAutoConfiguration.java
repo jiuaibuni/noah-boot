@@ -3,6 +3,7 @@ package com.gengby.starter.core.autoconfigure.threadpool;
 import cn.hutool.core.thread.ThreadUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.gengby.starter.core.constant.PropertiesConstants;
+import com.gengby.starter.core.util.ExceptionUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -70,7 +71,7 @@ public class ThreadPoolAutoConfiguration {
             @Override
             protected void afterExecute(Runnable runnable, Throwable throwable) {
                 super.afterExecute(runnable, throwable);
-                ExceptionUtils.printException(runnable, throwable);
+                ExceptionUtil.printException(runnable, throwable);
             }
         };
         // 应用关闭时，关闭线程池

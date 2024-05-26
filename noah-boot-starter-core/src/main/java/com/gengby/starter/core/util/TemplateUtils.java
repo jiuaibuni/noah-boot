@@ -13,11 +13,11 @@ import java.util.Map;
  * @author Noah
  * @since 1.0.0
  */
-public class TemplateUtil {
+public class TemplateUtils {
 
     private static final String DEFAULT_TEMPLATE_PARENT_PATH = "templates";
 
-    private TemplateUtil() {
+    private TemplateUtils() {
     }
 
     /**

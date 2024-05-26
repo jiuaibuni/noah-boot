@@ -14,9 +14,9 @@ import java.util.stream.Collectors;
  * @author Noah
  * @since 1.0.0
  */
-public class ReflectUtil {
+public class ReflectUtils {
 
-    private ReflectUtil() {
+    private ReflectUtils() {
     }
 
     /**

@@ -2,7 +2,7 @@ package com.gengby.starter.data.mybatis.plus.service.impl;
 
 import cn.hutool.core.util.ClassUtil;
 import com.gengby.starter.core.util.ReflectUtils;
-import com.gengby.starter.core.util.validate.CheckUtils;
+import com.gengby.starter.core.util.validate.CheckUtil;
 import com.gengby.starter.data.mybatis.plus.base.BaseMapper;
 import com.gengby.starter.data.mybatis.plus.service.IService;
 
@@ -16,7 +16,7 @@ import java.util.List;
  * @param <M> Mapper 接口
  * @param <T> 实体类型
  * @author Noah
- * @since 1.5.0
+ * @since 1.0.0
  */
 public class ServiceImpl<M extends BaseMapper<T>, T> extends com.baomidou.mybatisplus.extension.service.impl.ServiceImpl<M, T> implements IService<T> {
 
@@ -37,7 +37,7 @@ public class ServiceImpl<M extends BaseMapper<T>, T> extends com.baomidou.mybati
     protected T getById(Serializable id, boolean isCheckExists) {
         T entity = baseMapper.selectById(id);
         if (isCheckExists) {
-            CheckUtils.throwIfNotExists(entity, ClassUtil.getClassName(entityClass, true), "ID", id);
+            CheckUtil.throwIfNotExists(entity, ClassUtil.getClassName(entityClass, true), "ID", id);
         }
         return entity;
     }

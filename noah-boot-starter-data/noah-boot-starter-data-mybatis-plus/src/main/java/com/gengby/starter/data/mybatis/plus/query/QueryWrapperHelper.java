@@ -9,7 +9,7 @@ import cn.hutool.core.text.CharSequenceUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.gengby.starter.core.exception.BadRequestException;
 import com.gengby.starter.core.util.ReflectUtils;
-import com.gengby.starter.core.util.validate.ValidationUtils;
+import com.gengby.starter.core.util.validate.ValidationUtil;
 import com.gengby.starter.data.core.annotation.Query;
 import com.gengby.starter.data.core.annotation.QueryIgnore;
 import com.gengby.starter.data.core.enums.QueryType;
@@ -154,18 +154,18 @@ public class QueryWrapperHelper {
             case LE -> consumers.add(q -> q.le(columnName, fieldValue));
             case BETWEEN -> {
                 List<Object> between = new ArrayList<>((List<Object>)fieldValue);
-                ValidationUtils.throwIf(between.size() != 2, "[{}] 必须是一个范围", columnName);
+                ValidationUtil.throwIf(between.size() != 2, "[{}] 必须是一个范围", columnName);
                 consumers.add(q -> q.between(columnName, between.get(0), between.get(1)));
             }
             case LIKE -> consumers.add(q -> q.like(columnName, fieldValue));
             case LIKE_LEFT -> consumers.add(q -> q.likeLeft(columnName, fieldValue));
             case LIKE_RIGHT -> consumers.add(q -> q.likeRight(columnName, fieldValue));
             case IN -> {
-                ValidationUtils.throwIfEmpty(fieldValue, "[{}] 不能为空", columnName);
+                ValidationUtil.throwIfEmpty(fieldValue, "[{}] 不能为空", columnName);
                 consumers.add(q -> q.in(columnName, (Collection<Object>)fieldValue));
             }
             case NOT_IN -> {
-                ValidationUtils.throwIfEmpty(fieldValue, "[{}] 不能为空", columnName);
+                ValidationUtil.throwIfEmpty(fieldValue, "[{}] 不能为空", columnName);
                 consumers.add(q -> q.notIn(columnName, (Collection<Object>)fieldValue));
             }
             case IS_NULL -> consumers.add(q -> q.isNull(columnName));
