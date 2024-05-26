@@ -45,6 +45,12 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-extra</artifactId>
         </dependency>
+
+        <!-- Hutool HTTP客户端模块（针对 JDK 的 HttpUrlConnection 做一层封装，简化了 HTTPS 请求、文件上传、Cookie 记忆等操作，使 Http 请求变得无比简单） -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-http</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

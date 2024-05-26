@@ -3,12 +3,12 @@ package com.gengby.starter.log.httptracepro.handler;
 import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.json.JSONUtil;
+import com.gengby.starter.web.util.ServletUtil;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.web.util.ContentCachingResponseWrapper;
 import org.springframework.web.util.WebUtils;
 import com.gengby.starter.core.constant.StringConstants;
 import com.gengby.starter.log.core.model.RecordableHttpResponse;
-import com.gengby.starter.web.util.ServletUtils;
 
 import java.util.*;
 
@@ -36,7 +36,7 @@ public final class RecordableServletHttpResponse implements RecordableHttpRespon
 
     @Override
     public Map<String, String> getHeaders() {
-        return ServletUtils.getHeaderMap(response);
+        return ServletUtil.getHeaderMap(response);
     }
 
     @Override

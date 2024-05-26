@@ -1,10 +1,10 @@
 package com.gengby.starter.log.core.model;
 
 import cn.hutool.core.text.CharSequenceUtil;
+import com.gengby.starter.web.util.ServletUtil;
 import org.springframework.http.HttpHeaders;
 import com.gengby.starter.core.util.IpUtils;
 import com.gengby.starter.log.core.enums.Include;
-import com.gengby.starter.web.util.ServletUtils;
 
 import java.net.URI;
 import java.util.Map;
@@ -73,7 +73,7 @@ public class LogRequest {
         } else if (includes.contains(Include.REQUEST_PARAM)) {
             this.param = request.getParam();
         }
-        this.address = (includes.contains(Include.IP_ADDRESS)) ? IpUtils.getAddress(this.ip) : null;
+        this.address = (includes.contains(Include.IP_ADDRESS)) ? IpUtil.getAddress(this.ip) : null;
         if (null == this.headers) {
             return;
         }
@@ -84,8 +84,8 @@ public class LogRequest {
             .findFirst()
             .orElse(null);
         if (CharSequenceUtil.isNotBlank(userAgentString)) {
-            this.browser = (includes.contains(Include.BROWSER)) ? ServletUtils.getBrowser(userAgentString) : null;
-            this.os = (includes.contains(Include.OS)) ? ServletUtils.getOs(userAgentString) : null;
+            this.browser = (includes.contains(Include.BROWSER)) ? ServletUtil.getBrowser(userAgentString) : null;
+            this.os = (includes.contains(Include.OS)) ? ServletUtil.getOs(userAgentString) : null;
         }
     }
 

@@ -1,5 +1,7 @@
 package com.gengby.starter.web.autoconfigure.cors;
 
+import com.gengby.starter.core.constant.PropertiesConstants;
+import com.gengby.starter.core.constant.StringConstants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
