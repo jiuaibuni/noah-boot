@@ -6,6 +6,8 @@ import cn.hutool.core.text.CharSequenceUtil;
 import cn.hutool.extra.spring.SpringUtil;
 import cn.hutool.http.HtmlUtil;
 import com.gengby.starter.core.constant.StringConstants;
+import net.dreamlu.mica.ip2region.core.Ip2regionSearcher;
+import net.dreamlu.mica.ip2region.core.IpInfo;
 
 import java.util.Set;
 

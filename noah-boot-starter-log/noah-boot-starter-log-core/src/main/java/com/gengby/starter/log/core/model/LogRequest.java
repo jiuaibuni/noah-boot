@@ -3,7 +3,7 @@ package com.gengby.starter.log.core.model;
 import cn.hutool.core.text.CharSequenceUtil;
 import com.gengby.starter.web.util.ServletUtil;
 import org.springframework.http.HttpHeaders;
-import com.gengby.starter.core.util.IpUtils;
+import com.gengby.starter.core.util.IpUtil;
 import com.gengby.starter.log.core.enums.Include;
 
 import java.net.URI;
