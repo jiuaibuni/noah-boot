@@ -14,8 +14,8 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-#.idea
-#!.idea/icon.png
+.idea
+!.idea/icon.png
 *.iws
 *.iml
 *.ipr
