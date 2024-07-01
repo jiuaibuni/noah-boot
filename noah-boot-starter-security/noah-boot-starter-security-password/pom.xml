@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.gengby</groupId>
-        <artifactId>continew-starter-security</artifactId>
+        <artifactId>noah-boot-starter-security</artifactId>
         <version>${revision}</version>
     </parent>
 
     <artifactId>noah-boot-starter-security-password</artifactId>
-    <description>ContiNew Starter 安全模块 - 密码编码器</description>
+    <description>Noah Boot 安全模块 - 密码编码器</description>
 
     <dependencies>
         <!-- Spring Security 附带的一个密码加密库 -->

@@ -34,7 +34,7 @@ import org.springframework.context.annotation.Lazy;
  * MyBatis Plus ID 生成器 - CosId
  *
  * @author Noah
- * @since 1.4.0
+ * @since 1.0.0
  */
 public class MyBatisPlusCosIdIdentifierGenerator implements IdentifierGenerator {
 

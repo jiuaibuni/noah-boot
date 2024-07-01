@@ -28,7 +28,7 @@ package com.gengby.starter.data.mybatis.plus.enums;
  * MyBatis ID 生成器类型枚举
  *
  * @author Noah
- * @since 1.4.0
+ * @since 1.0.0
  */
 public enum MyBatisPlusIdGeneratorType {
 

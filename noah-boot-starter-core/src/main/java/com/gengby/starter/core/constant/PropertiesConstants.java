@@ -122,6 +122,21 @@ public class PropertiesConstants {
      */
     public static final String CAPTCHA_BEHAVIOR = CAPTCHA + StringConstants.DOT + "behavior";
 
+    /**
+     * 消息配置
+     */
+    public static final String MESSAGING = NOAH_BOOT + StringConstants.DOT + "messaging";
+
+    /**
+     * WebSocket 配置
+     */
+    public static final String MESSAGING_WEBSOCKET = MESSAGING + StringConstants.DOT + "websocket";
+
+    /**
+     * 限流器配置
+     */
+    public static final String SECURITY_LIMITER = SECURITY + StringConstants.DOT + "limiter";
+
     private PropertiesConstants() {
     }
 }

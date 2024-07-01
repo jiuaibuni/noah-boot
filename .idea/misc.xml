@@ -39,14 +39,15 @@
         <option value="$PROJECT_DIR$/noah-boot-starter-captcha/continew-starter-captcha-behavior/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-captcha/continew-starter-captcha-graphic/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-captcha/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-password/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-starter-security-limiter/pom.xml" />
+        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-limiter/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/pom.xml" />
-        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/pom.xml" />
-        <option value="$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-password/pom.xml" />
-        <option value="$PROJECT_DIR$/noah-boot-starter-security/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-web/ear/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-web/ejbs/pom.xml" />
         <option value="$PROJECT_DIR$/noah-boot-starter-web/primary-source/pom.xml" />

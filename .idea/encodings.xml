@@ -60,10 +60,14 @@
     <file url="file://$PROJECT_DIR$/noah-boot-starter-log/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/noah-boot-starter-messaging-mail/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/noah-boot-starter-messaging-mail/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/noah-boot-starter-messaging-websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/noah-boot-starter-messaging-websocket/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-messaging/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-crypto/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-limiter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-limiter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-mask/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/noah-boot-starter-security/noah-boot-starter-security-password/src/main/java" charset="UTF-8" />

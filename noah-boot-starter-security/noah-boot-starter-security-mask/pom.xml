@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.gengby</groupId>
-        <artifactId>continew-starter-security</artifactId>
+        <artifactId>noah-boot-starter-security</artifactId>
         <version>${revision}</version>
     </parent>
 
     <artifactId>noah-boot-starter-security-mask</artifactId>
-    <description>ContiNew Starter 安全模块 - 脱敏</description>
+    <description>Noah Boot 安全模块 - 脱敏</description>
 </project>

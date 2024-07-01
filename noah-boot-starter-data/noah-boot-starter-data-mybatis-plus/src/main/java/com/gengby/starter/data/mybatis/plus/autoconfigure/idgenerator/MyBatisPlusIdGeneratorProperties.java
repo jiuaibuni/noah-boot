@@ -30,7 +30,7 @@ import com.gengby.starter.data.mybatis.plus.enums.MyBatisPlusIdGeneratorType;
  * MyBatis ID 生成器配置属性
  *
  * @author Noah
- * @since 1.4.0
+ * @since 1.0.0
  */
 public class MyBatisPlusIdGeneratorProperties {
 

@@ -4,27 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>top.continew</groupId>
-        <artifactId>continew-starter</artifactId>
+        <groupId>com.gengby</groupId>
+        <artifactId>noah-boot</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>continew-starter-security</artifactId>
+    <artifactId>noah-boot-starter-security</artifactId>
     <packaging>pom</packaging>
-    <description>ContiNew Starter 安全模块</description>
+    <description>Noah Boot 安全模块</description>
 
     <modules>
-        <module>continew-starter-security-password</module>
-        <module>continew-starter-security-mask</module>
-        <module>continew-starter-security-crypto</module>
-        <module>continew-starter-security-limiter</module>
+        <module>noah-boot-starter-security-password</module>
+        <module>noah-boot-starter-security-mask</module>
+        <module>noah-boot-starter-security-crypto</module>
+        <module>noah-boot-starter-security-limiter</module>
     </modules>
 
     <dependencies>
         <!-- 核心模块 -->
         <dependency>
-            <groupId>top.continew</groupId>
-            <artifactId>continew-starter-core</artifactId>
+            <groupId>com.gengby</groupId>
+            <artifactId>noah-boot-starter-core</artifactId>
         </dependency>
     </dependencies>
 </project>

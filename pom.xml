@@ -58,6 +58,7 @@
         <module>noah-boot-starter-auth</module>
         <module>noah-boot-starter-messaging</module>
         <module>noah-boot-starter-extension</module>
+        <module>noah-boot-starter-security</module>
     </modules>
 
     <build>

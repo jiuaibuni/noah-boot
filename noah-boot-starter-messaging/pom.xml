@@ -15,6 +15,7 @@
 
     <modules>
         <module>noah-boot-starter-messaging-mail</module>
+        <module>noah-boot-starter-messaging-websocket</module>
     </modules>
 
     <dependencies>

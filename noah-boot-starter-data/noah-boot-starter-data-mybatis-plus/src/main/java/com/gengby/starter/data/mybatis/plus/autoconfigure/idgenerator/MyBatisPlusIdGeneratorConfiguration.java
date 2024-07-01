@@ -41,7 +41,7 @@ import org.springframework.core.ResolvableType;
  * MyBatis ID 生成器配置
  *
  * @author Noah
- * @since 1.4.0
+ * @since 1.0.0
  */
 public class MyBatisPlusIdGeneratorConfiguration {
 
