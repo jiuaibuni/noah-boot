@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.gengby</groupId>
+        <artifactId>noah-boot-starter-security</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>noah-boot-starter-security-limiter</artifactId>
+    <description>Noah Boot 安全模块 - 限流</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+        <!-- Web 模块 -->
+        <dependency>
+            <groupId>com.gengby</groupId>
+            <artifactId>noah-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- 缓存模块 - Redisson -->
+        <dependency>
+            <groupId>com.gengby</groupId>
+            <artifactId>noah-boot-starter-cache-redisson</artifactId>
+        </dependency>
+    </dependencies>
+</project>

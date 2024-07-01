@@ -1,0 +1,7 @@
+{
+  "com.gengby.starter.security.limiter.annotation.RateLimiter@key":{
+    "method":{
+      "parameters": true
+    }
+  }
+}
